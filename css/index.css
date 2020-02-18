@@ -276,18 +276,16 @@ button {
   padding-top: 35px;
 }
 @media (max-width: 800px) {
-  body {
-    background-color: blue;
-    display: flex;
-  }
   .circle {
     display: none;
   }
   header {
-    display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
-    flex-flow: column-reverse;
+    margin-bottom: 45px;
+  }
+  .cta-text h1 {
+    font-size: 60px;
   }
 }
 @media (max-width: 500px) {
@@ -295,6 +293,6 @@ button {
     background-color: teal;
   }
   .circle {
-    visibility: hidden;
+    display: none;
   }
 }
